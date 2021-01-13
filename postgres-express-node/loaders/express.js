@@ -19,7 +19,7 @@ module.exports = ({ app, HttpLogger: logger }) => {
     algorithms: config.jwt.algorithms,
     secret: config.jwt.secret,
     }).unless(config.jwt.exclude)
-  );
+  ); 
 
   //---------------------------
   // LOAD/MOUNT API ROUTES
